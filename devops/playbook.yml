@@ -84,4 +84,9 @@
     - name: Restart Nuxt.js Container
       docker_container:
         name: "{{ CONTAINER_NAME }}"
-        state: restarted
+        state: started
+        restart: yes
+
+
+
+ 
